@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#008577</color>
+    <color name="tab_unselect">#a3a3a3</color>
+    <color name="news_tv_source_color">#a3a3a3</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="gray_personalFragmentBackground">#EBEBEB</color>
+    <!--原先的访问颜色-->
+    <!--    <color name="colorAccent">#D81B60</color>-->
+    <color name="divider_gray">#d9d9d9</color>//细分割线颜色
+
+    <color name="tv_gray">#666666</color>
+
+</resources>

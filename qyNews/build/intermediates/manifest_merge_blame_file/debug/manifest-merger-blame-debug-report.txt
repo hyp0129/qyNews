@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zhuoren.qyNews"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:5:5-75
+11-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:5:22-72
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:6:5-81
+12-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+13-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:7:5-75
+13-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:7:22-72
+14    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+14-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:8:5-82
+14-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:8:22-79
+15    <uses-permission android:name="android.permission.zDOWNLOAD_WITHOUT_NOTIFICATION" />
+15-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:9:5-89
+15-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:9:22-86
+16    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+16-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:10:5-76
+16-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:10:22-73
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:11:5-67
+17-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:12:5-79
+18-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:13:5-76
+19-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:13:22-73
+20    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+20-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:14:5-76
+20-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:14:22-73
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:15:5-81
+21-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:15:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:16:5-80
+22-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:16:22-77
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:17:5-68
+23-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:17:22-65
+24
+25    <application
+25-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:19:5-74:19
+26        android:name="com.zhuoren.qyNews.MyApp"
+26-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:20:9-30
+27        android:allowBackup="true"
+27-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:21:9-35
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:22:9-43
+30        android:label="@string/app_name"
+30-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:23:9-41
+31        android:supportsRtl="true"
+31-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:24:9-35
+32        android:theme="@style/AppTheme" >
+32-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:25:9-40
+33        <activity
+33-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:26:9-33:20
+34            android:name="com.zhuoren.qyNews.ui.login.LoginActivity"
+34-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:26:19-57
+35            android:launchMode="singleTask" >
+35-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:27:13-44
+36            <intent-filter>
+36-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:29:13-32:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:30:17-69
+37-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:30:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:31:17-77
+39-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:31:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="com.zhuoren.qyNews.ui.login.RegisterActivity" />
+42-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:34:9-35:15
+42-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:34:19-60
+43        <activity
+43-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:36:9-44:20
+44            android:name="com.zhuoren.qyNews.MainActivity"
+44-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:37:13-41
+45            android:configChanges="orientation|screenSize|keyboardHidden"
+45-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:38:13-74
+46            android:screenOrientation="portrait"
+46-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:39:13-49
+47            android:theme="@style/AppTheme" >
+47-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:40:13-44
+48        </activity>
+49        <activity
+49-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:45:9-50:63
+50            android:name="com.zhuoren.qyNews.ui.news.NewsDetailActivity"
+50-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:46:13-55
+51            android:hardwareAccelerated="true"
+51-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:47:13-47
+52            android:screenOrientation="portrait"
+52-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:48:13-49
+53            android:theme="@style/AppTheme.Transparent"
+53-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:49:13-56
+54            android:windowSoftInputMode="stateAlwaysHidden" />
+54-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:50:13-60
+55        <activity
+55-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:51:9-55:63
+56            android:name="com.zhuoren.qyNews.ui.news.ImageBrowseActivity"
+56-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:52:13-56
+57            android:screenOrientation="portrait"
+57-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:53:13-49
+58            android:theme="@style/AppTheme.Transparent"
+58-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:54:13-56
+59            android:windowSoftInputMode="stateAlwaysHidden" />
+59-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:55:13-60
+60        <activity android:name="com.zhuoren.qyNews.ui.personal.EditUsernameActivity" />
+60-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:58:9-59:15
+60-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:58:19-67
+61        <activity android:name="com.zhuoren.qyNews.ui.personal.EditLableActivity" >
+61-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:60:9-63:20
+61-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:60:19-64
+62        </activity>
+63        <activity android:name="com.zhuoren.qyNews.ui.personal.SettingPersonalInfoActivity" >
+63-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:64:9-68:16
+63-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:65:13-68
+64        </activity>
+65        <activity
+65-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:69:9-72:59
+66            android:name="com.zhuoren.qyNews.ui.personal.SettingsActivity"
+66-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:70:13-57
+67            android:label="设置"
+67-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:71:13-31
+68            android:theme="@style/AppTheme_DisplayTitle" />
+68-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:72:13-57
+69        <activity android:name="com.zhuoren.qyNews.ui.personal.ClipImageActivity" />
+69-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:73:9-67
+69-->A:\AndroidProjects\QYnews\qyNews\src\main\AndroidManifest.xml:73:19-64
+70
+71        <provider
+71-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\5499\.gradle\caches\transforms-2\files-2.1\0319b019d62b322e5e3e8b69d1380784\extensions-1.1.1\AndroidManifest.xml:23:9-27:43
+72            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+72-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\5499\.gradle\caches\transforms-2\files-2.1\0319b019d62b322e5e3e8b69d1380784\extensions-1.1.1\AndroidManifest.xml:24:13-83
+73            android:authorities="com.zhuoren.qyNews.lifecycle-trojan"
+73-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\5499\.gradle\caches\transforms-2\files-2.1\0319b019d62b322e5e3e8b69d1380784\extensions-1.1.1\AndroidManifest.xml:25:13-68
+74            android:exported="false"
+74-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\5499\.gradle\caches\transforms-2\files-2.1\0319b019d62b322e5e3e8b69d1380784\extensions-1.1.1\AndroidManifest.xml:26:13-37
+75            android:multiprocess="true" />
+75-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\5499\.gradle\caches\transforms-2\files-2.1\0319b019d62b322e5e3e8b69d1380784\extensions-1.1.1\AndroidManifest.xml:27:13-40
+76    </application>
+77
+78</manifest>

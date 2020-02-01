@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.florent37:viewanimator:1.0.5@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d3bbf6002066111c11f425d9ab712a32/viewanimator-1.0.5/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d3bbf6002066111c11f425d9ab712a32/viewanimator-1.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d3bbf6002066111c11f425d9ab712a32/viewanimator-1.0.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/viewanimator/1.0.5/1bdaf6a10117d7a029a508233b3dfa0e27b200b3/viewanimator-1.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/viewanimator/1.0.5/3751bb532fcb91f4a88870de5c1cf07f1cfe9359/viewanimator-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

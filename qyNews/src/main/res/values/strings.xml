@@ -1,0 +1,130 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">轻阅新闻</string>
+
+    <string name="home">新闻</string>
+    <string name="my">我的</string>
+
+    <!-- 状态视图  -->
+    <string name="loading">加载中...</string>
+    <string name="text_empty">还没有数据呢！</string>
+    <string name="text_nonet">网络异常！</string>
+
+
+    <!-- 新闻 -->
+    <string name="news_commentsize" tools:keep="@string/news_commentsize">%1$s评论</string>
+    <string name="detail_header_tv">下拉一下，看点儿不一样的</string>
+    <string name="news_toast">已更新%1$s条新闻</string>
+
+    <string-array name="news_channel">
+        <item>头条</item>
+        <item>娱乐</item>
+        <item>军事</item>
+        <item>体育</item>
+        <item>财经</item>
+        <item>科技</item>
+        <item>历史</item>
+        <item>台湾</item>
+        <item>汽车</item>
+        <item>社会</item>
+        <item>时尚</item>
+        <item>国学</item>
+        <item>文化</item>
+        <item>星座</item>
+        <item>读书</item>
+        <item>电影</item>
+        <item>国际</item>
+        <item>游戏</item>
+    </string-array>
+    <string-array name="news_channel_id">
+        <item>SYLB10,SYDT10</item>
+        <item>YL53,FOCUSYL53</item>
+        <item>JS83,FOCUSJS83</item>
+        <item>TY43,FOCUSTY43,TYLIVE,TYTOPIC</item>
+        <item>CJ33,FOCUSCJ33,HNCJ33</item>
+        <item>KJ123,FOCUSKJ123</item>
+        <item>LS153,FOCUSLS153</item>
+        <item>TW73</item>
+        <item>QC45,FOCUSQC45</item>
+        <item>SH133,FOCUSSH133</item>
+        <item>SS78,FOCUSSS78</item>
+        <item>GXPD,FOCUSGXPD</item>
+        <item>WH25,FOCUSWH25</item>
+        <item>XZ09,FOCUSXZ09</item>
+        <item>DS57,FOCUSDS57</item>
+        <item>YX11,FOCUSYX11</item>
+        <item>DYPD</item>
+        <item>GJPD</item>
+    </string-array>
+
+
+
+    <string name="prompt_email">邮箱</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_up">注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="action_sign_up_short">注册</string>
+    <string name="welcome">"欢迎!"</string>
+    <string name="invalid_username">请输入一个有效的邮箱</string>
+    <string name="invalid_password">密码至少要6个字符</string>
+    <string name="login_failed">登录失败</string>
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">常规</string>
+
+    <string name="pref_title_social_recommendations">允许推送</string>
+    <string name="pref_description_social_recommendations">
+    </string>
+
+    <string name="pref_title_display_name">展示名字</string>
+    <string name="pref_default_display_name">轻阅先生</string>
+
+    <string name="pref_title_add_friends_to_messages">添加朋友到消息</string>
+    <string-array name="pref_example_list_titles">
+        <item>总是</item>
+        <item>如果可能的话</item>
+        <item>从不</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">数据与同步</string>
+
+    <string name="pref_title_sync_frequency">同步频率</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 分钟</item>
+        <item>30 分钟</item>
+        <item>1 小时</item>
+        <item>3 小时</item>
+        <item>6 小时</item>
+        <item>从不</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">系统同步设置</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">通知</string>
+
+    <string name="pref_title_new_message_notifications">新消息通知</string>
+
+    <string name="pref_title_ringtone">铃声</string>
+    <string name="pref_ringtone_silent">静音</string>
+
+    <string name="pref_title_vibrate">振动</string>
+
+</resources>

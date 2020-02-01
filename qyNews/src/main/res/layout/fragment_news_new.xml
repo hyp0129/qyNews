@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.flyco.tablayout.SlidingTabLayout
+            xmlns:tl="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/SlidingTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/linearlayout_stroke_shape"
+            tl:tl_indicator_color="@color/colorPrimary"
+            tl:tl_textSelectColor="@color/colorPrimary"
+            tl:tl_textUnselectColor="@android:color/black"
+            tl:tl_textsize="14sp"/>
+
+
+    </RelativeLayout>
+
+    <com.zhuoren.qyNews.widget.CustomViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

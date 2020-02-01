@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:flowLayout="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.personal.EditLableActivity"
+    android:background="@color/colorWhite">
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/titleBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/linearlayout_stroke_shape"
+        >
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/arrow_back"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人物标签"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:layout_weight="1"
+
+            />
+
+        <TextView
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:paddingRight="15dp"
+
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@+id/titleBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+
+        >
+        <com.zhuoren.qyNews.ui.personal.view.FlowLayout
+            android:id="@+id/fl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            flowLayout:row_dis="10dip"
+            flowLayout:col_dis="20dip"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

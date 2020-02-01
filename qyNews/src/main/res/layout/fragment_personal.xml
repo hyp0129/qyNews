@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.personal.PersonalFragment"
+    android:background="@color/gray_personalFragmentBackground"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/headImageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            android:background="@drawable/linearlayout_stroke_shape"
+            android:paddingTop="30dp"
+            android:gravity="center_vertical"
+
+            >
+            <com.zhuoren.qyNews.ui.personal.view.CircleImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:id="@+id/headImage"
+                android:src="@drawable/kaola"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+
+                />
+            <TextView
+                android:id="@+id/usernameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户名"
+                android:textSize="17dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/settingsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/linearlayout_stroke_shape"
+            android:gravity="center_vertical"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/settings"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
