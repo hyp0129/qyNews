@@ -21,13 +21,9 @@
 
 ![image](https://github.com/wuwuhuai/qyNews/blob/master/%E6%96%B0%E9%97%BB%E8%AF%A6%E6%83%85%E6%A8%A1%E5%9D%97%E7%B1%BB%E5%9B%BE.png)
 
-五、项目亮点：界面美观
-
-六、开发过程遇到的问题：在Activity中传递图片、各个Activity启动模式的设置等。
-
-七、运行截图（部分）
+五、运行截图（部分）
 
 ![image](https://github.com/wuwuhuai/qyNews/blob/master/%E6%96%B0%E9%97%BB%E5%88%97%E8%A1%A8%E4%B8%8E%E6%96%B0%E9%97%BB%E8%AF%A6%E6%83%85%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png)
 ![image](https://github.com/wuwuhuai/qyNews/blob/master/%E8%A3%81%E5%89%AA%E5%B8%83%E5%B1%80%E4%B8%8E%E6%B5%81%E5%BC%8F%E5%B8%83%E5%B1%80%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png)
 
-八、App的API:凤凰新闻 http://api.iclient.ifeng.com
+六、App的API:凤凰新闻 http://api.iclient.ifeng.com
